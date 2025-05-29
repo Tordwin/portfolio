@@ -1,0 +1,69 @@
+﻿@model ISchoolWebApp01.Models.Degrees
+@{
+    ViewData["Title"] = "Degrees";
+}
+
+@*
+    The following sub-root nodes exist in this section:
+        undergraduate
+        graduate
+    Each child node has the following fields to be queried:
+        degreeName
+        title
+        description
+        concenterations
+*@
+
+<div class="degreesContainer">
+    <h1 style="color: white; margin-bottom: 20px;">Degrees</h1>
+    <div id="underGraduate">
+        <h2 style="color:white; margin-left: 10px">Undergraduate</h2>
+        @foreach (var unDegreeName in @Model.undergraduate)
+        {
+            <div id="newDegree">
+                <h3>@unDegreeName.title</h3>
+                <p>@unDegreeName.description</p>
+                @if (unDegreeName.concentrations != null)
+                {
+                    <ul>
+                        @foreach (var courses in @unDegreeName.concentrations)
+                        {
+                            <li>@courses</li>
+                        }
+                    </ul>
+                }
+            </div>
+        }
+    </div>
+
+    <div id="graduate">
+        <h2 style="color:white; margin-left: 10px;">Graduate</h2>
+        @foreach (var gDegreeName in Model.graduate)
+        {
+            <div id="newDegree">
+                @if (gDegreeName.degreeName == "graduate advanced certificates")
+                {
+                    <h3>Graduate Advanced Certificates</h3>
+                    <p>These are the avaliable certificates for Advanced Graduates: </p>
+                    <ul>
+                        @foreach (var courses in gDegreeName.availableCertificates)
+                        {
+                            <li>@courses</li>
+                        }
+                    </ul>
+                }
+                @if (gDegreeName.concentrations != null)
+                {
+                    <h3>@gDegreeName.title</h3>
+                    <p>@gDegreeName.description</p>
+                    <ul>
+                        @foreach (var courses in @gDegreeName.concentrations)
+                        {
+                            <li>@courses</li>
+                        }
+                    </ul>
+                }
+            </div>
+        }
+    </div>
+</div>

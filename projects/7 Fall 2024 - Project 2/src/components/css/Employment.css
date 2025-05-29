@@ -1,0 +1,60 @@
+/* Body Settings */
+#employmentContainer a {
+    text-decoration: none;
+}
+
+#employmentContainer a:link {
+    color: #e0e1dd;
+}
+
+#employmentContainer a:visited {
+    color: #e0e1dd;
+}
+
+#empCarContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#centerStats {
+    display: flex;
+    justify-content: center;
+}
+
+#degreeStatsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#empDegreeStats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px black solid;
+    background-color: #e0e1dd;
+    color: black;
+}
+
+#empDegreeStats #degreeDesc {
+    font-size: 20px;
+} 
+
+#empValue {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* Try to follow this color pallete 
+    Navigation & Footer: 
+        background-color: #1b263b;
+
+    Body/Text Container:
+        background-color: #0d1b2a;
+    
+    H Elements:
+        background-color: #415a77;
+
+    Text Color:
+        color: #e0e1dd;
+*/

@@ -1,0 +1,74 @@
+/* Start of content settings */
+.content {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #F7DED0;
+}
+
+.body {
+    padding: 10px;
+}
+
+.body li h2 {
+    font-size: 50px;
+}
+
+.body li {
+    display: flex;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body img {
+	width: 100%;
+	max-width: 450px;
+    height: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* End of content settings */
+
+/* Start of media settings */
+@media screen and (max-width: 1200px) {
+	.body li h2{
+		font-size: 40px;
+	}
+
+	.body li {
+		font-size: 20px;
+	}
+
+	.body img {
+		max-width: 350px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.body li h2{
+		font-size: 30px;
+	}
+
+	.body li {
+		font-size: 15px;
+	}
+
+	.body img {
+		max-width: 250px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.body li h2{
+		font-size: 20px;
+	}
+
+	.body li {
+		font-size: 10px;
+	}
+
+	.body img {
+		max-width: 150px;
+	}
+}
+/* End of media settings */

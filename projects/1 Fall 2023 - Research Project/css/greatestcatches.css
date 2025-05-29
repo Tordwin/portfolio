@@ -1,0 +1,53 @@
+header {
+    background-color: #33B1AA;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #9ECBCE;
+    margin: 5px;
+}
+
+.greatestcatchescontent {
+    max-width: 100%;
+    min-width: 400px;
+    position: relative;
+    background-color: white;
+    min-height: 400px;
+    max-height: 100%;
+}
+
+.greatestcatchescontent p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 20px; 
+}
+
+.greatestcatchescontent img{
+    max-width: 100%;
+    min-width: 400px;
+    display: block;
+    margin: 2% auto;
+    height: 450px;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #33B1AA;
+    color: white;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+}

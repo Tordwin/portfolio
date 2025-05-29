@@ -1,0 +1,59 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Home";
+}
+
+@* 
+    The following sub-root nodes exist in this section:
+        title
+        description
+        quote
+        quoteAuthor
+*@
+
+<div class="text-center">
+    <div class="display-4">
+        <h1 style="font-size: 50px;">Welcome to ISchool</h1>
+        <a class="player video-background"
+           data-property="{videoURL:'ytmK9iO5IP0', containment:'.display-4', mute:true, autoPlay:true, startAt:0, opacity:1}">
+        </a>
+    </div>
+</div>
+
+<div class="about">
+    <h1>@Model.About.title</h1>
+    <h2>@Model.About.description</h2>
+</div>
+
+<div id="degreeStats">
+    @foreach (var content in @Model.Employment.degreeStatistics.statistics)
+    {
+        <div id="degreeItems">
+            <h3>@content.value</h3>
+            <p>@content.description</p>
+        </div>
+    }
+</div>
+
+<div id="quote">
+    <p>@Model.About.quote</p>
+    <h3>@Model.About.quoteAuthor</h3>
+</div>
+
+<h1 style="color: white">News</h1>
+
+<div id="newsContainer">
+    <div id="newsDate">
+        <h2 style="text-align: center;">Dates</h2>
+        @foreach (var data in @Model.News.older)
+        {
+            <p class="newsDate" data-title="@data.title" data-description="@data.description">
+                @data.date
+            </p>
+        }
+    </div>
+    <div id="newsDisplay">
+        <h3 id="newsTitle">Click a date to view news</h3>
+        <p id="newsDescription"></p>
+    </div>
+</div>

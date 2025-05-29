@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ISchoolWebApp01",
+    "\\ISchoolWebApp01\\Controllers",
+    "\\ISchoolWebApp01\\Models",
+    "\\ISchoolWebApp01\\Views",
+    "\\ISchoolWebApp01\\Views\\Home",
+    "\\ISchoolWebApp01\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\ISchoolWebApp01\\Controllers\\HomeController.cs",
+  "PreviewInSolutionExplorer": false
+}

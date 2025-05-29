@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\projects\\project-3\\ischoolwebapp01\\ischoolwebapp01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\projects\\project-3\\ischoolwebapp01\\ischoolwebapp01\\views\\home\\minorcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\views\\home\\minorcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\projects\\project-3\\ischoolwebapp01\\ischoolwebapp01\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\projects\\project-3\\ischoolwebapp01\\ischoolwebapp01\\models\\minors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\models\\minors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|c:\\users\\chene\\onedrive\\documents\\school\\fall2024\\chen340\\projects\\project-3\\ischoolwebapp01\\ischoolwebapp01\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3A910C-2B31-468D-BDD1-ADA7AEC61D21}|ISchoolWebApp01\\ISchoolWebApp01.csproj|solutionrelative:ischoolwebapp01\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ISchoolWebApp01\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T22:11:45.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinorCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\MinorCourses.cshtml",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Views\\Home\\MinorCourses.cshtml",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\MinorCourses.cshtml",
+              "RelativeToolTip": "ISchoolWebApp01\\Views\\Home\\MinorCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T22:30:46.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "People.cshtml",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\People.cshtml",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Views\\Home\\People.cshtml",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Views\\Home\\People.cshtml",
+              "RelativeToolTip": "ISchoolWebApp01\\Views\\Home\\People.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T22:30:27.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Minors.cs",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\Minors.cs",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Models\\Minors.cs",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\Minors.cs",
+              "RelativeToolTip": "ISchoolWebApp01\\Models\\Minors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:30:22.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "People.cs",
+              "DocumentMoniker": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\People.cs",
+              "RelativeDocumentMoniker": "ISchoolWebApp01\\Models\\People.cs",
+              "ToolTip": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\Models\\People.cs",
+              "RelativeToolTip": "ISchoolWebApp01\\Models\\People.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:30:22.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

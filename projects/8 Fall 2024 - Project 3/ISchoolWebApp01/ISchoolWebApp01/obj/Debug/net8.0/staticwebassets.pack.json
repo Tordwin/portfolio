@@ -1,0 +1,609 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ISchoolWebApp01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ISchoolWebApp01.6xh4nuu1zw.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jQuery-ui\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jQuery-ui\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\cover.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\font\\ytp-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster@2x.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster_dot.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster_dot.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster_dot@2x.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\images\\raster_dot@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\jquery.mb.YTPlayer.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\css\\jquery.mb.YTPlayer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\jquery.mb.YTPlayer.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\jquery.mb.YTPlayer.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\dist\\jquery.mb.YTPlayer.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\dist\\jquery.mb.YTPlayer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\ajaxText.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\ajaxText.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\ajaxVideo.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\ajaxVideo.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\demo.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\ajaxLoad\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\cover.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\cover.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-1.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-1.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-2.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-2.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-3.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-3.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-4.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-4.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-4a.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\mask-4a.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\shadow.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\text-mask.svg",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\text-mask.svg"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\ytplayer_img.jpg",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\assets\\ytplayer_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo-abundance-anchor.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo-abundance-anchor.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo-masked.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo-masked.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_as_player.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_as_player.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_domElement.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_domElement.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_domElement_1.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_domElement_1.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_ext_methods.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_ext_methods.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_multi_domElement.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_multi_domElement.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_multiple_videos.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_multiple_videos.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_play_only_if_on_screen.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_play_only_if_on_screen.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_random.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_random.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_videoList_autoChange.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\demo_videoList_autoChange.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-1.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-1.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-2.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-2.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-3.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-3.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-4.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-4.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-5.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-5.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\examples\\test-loop.html",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\examples\\test-loop.html"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\issue.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\issue.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\licences\\GPL-LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\licences\\GPL-LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\licences\\MIT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\licences\\MIT-LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\font\\ytp-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster@2x.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster_dot.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster_dot.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster_dot@2x.png",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\images\\raster_dot@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\css\\jquery.mb.YTPlayer.css",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\css\\jquery.mb.YTPlayer.css"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.CSSAnimate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.CSSAnimate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.browser.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.browser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.simpleSlider.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.simpleSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.storage.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mb.storage.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mbBrowser.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\dep\\jquery.mbBrowser.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\index.tmpl",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\index.tmpl"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery.mb.YTPlayer-master\\src\\jquery.mb.YTPlayer.src.js",
+      "PackagePath": "staticwebassets\\lib\\jquery.mb.YTPlayer-master\\src\\jquery.mb.YTPlayer.src.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\chene\\OneDrive\\Documents\\SCHOOL\\FALL2024\\CHEN340\\projects\\project-3\\ISchoolWebApp01\\ISchoolWebApp01\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ISchoolWebApp01.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ISchoolWebApp01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ISchoolWebApp01.props",
+      "PackagePath": "build\\ISchoolWebApp01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ISchoolWebApp01.props",
+      "PackagePath": "buildMultiTargeting\\ISchoolWebApp01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ISchoolWebApp01.props",
+      "PackagePath": "buildTransitive\\ISchoolWebApp01.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

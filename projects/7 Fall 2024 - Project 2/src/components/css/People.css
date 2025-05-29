@@ -1,0 +1,60 @@
+/* Body Settings */
+.top h2 {
+    font-size: 50px;
+    margin-left: 25px
+}
+
+.top h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+.peopleList p {
+    color: #e0e1dd;
+    border-bottom: 3px solid black;
+	padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.peopleList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#people a {
+    text-decoration: none;
+}
+
+#people a:link {
+    color: #e0e1dd;
+}
+
+#people a:visited {
+    color: #e0e1dd;
+}
+
+/* Try to follow this color pallete 
+    Navigation & Footer: 
+        background-color: #1b263b;
+
+    Body/Text Container:
+        background-color: #0d1b2a;
+    
+    H Elements:
+        background-color: #415a77;
+
+    Text Color:
+        color: #e0e1dd;
+*/

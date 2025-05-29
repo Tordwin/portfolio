@@ -1,0 +1,149 @@
+﻿@model ISchoolWebApp01.Models.PeopleModel
+@{
+    ViewData["Title"] = "People";
+}
+
+@*
+    The sub-root nodes are :
+        username
+        name
+        tagline
+        imagePath
+        title
+        interestArea
+        office
+        website
+        phone
+        email
+        twitter
+        facebook
+*@
+
+<h1 style="color:white; margin-bottom: 10px;">@Model.title</h1>
+<p style="color: white; font-size: 20px;">@Model.subTitle</p>
+<hr/>
+
+<div id="peopleTab">
+    <ul>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#staff">Staff</a></li>
+    </ul>
+    <div id="staff">
+        @foreach (var staff in @Model.staff)
+        {
+            <div class="person">
+                <img src="@staff.imagePath" alt="pic" />
+                <h3 style="font-size:small">
+                    @staff.name
+                </h3>
+                <h3 style="font-size:small">
+                    @staff.title
+                </h3>
+                <h3 style="font-size:small">
+                    @staff.office
+                </h3>
+                <h3 style="font-size:small">
+                    @staff.phone
+                </h3>
+                <h3 style="font-size:small">
+                    @staff.email
+                </h3>
+                <div id="peopleRow">
+                     @foreach (var (url, label) in new[]
+                    {
+                        (@staff.twitter, "Twitter"),
+                        (@staff.facebook, "Facebook"),
+                    })
+                    {
+                        if (!string.IsNullOrEmpty(url))
+                        {
+                            string icon = "";
+                            if (@label == "Twitter")
+                            {
+                                icon = "fa-brands fa-twitter";
+                            }
+                            if (@label == "Facebook")
+                            {
+                                icon = "fa-brands fa-facebook";
+                            }
+
+                            string newUrl;
+                            if (url.Contains("twitter.com") || url.Contains("facebook.com"))
+                            {
+                                newUrl = url;
+                            }
+                            else
+                            {
+                                newUrl = $"https://{label.ToLower()}.com/{url}";
+                            }
+                            <h3 style="font-size: small;"><a href="@newUrl" target="_blank"><i class="@icon"></i></a></h3>
+                        }
+                    }
+                    @if (!string.IsNullOrEmpty(@staff.website))
+                    {
+                        <h3 style="font-size: small;"><a href="@staff.website" target="_blank"><i class="fas fa-globe"></i></a></h3>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+    <div id="faculty">
+        @foreach (var faculty in @Model.faculty)
+        {
+            <div class="person">
+                <img src="@faculty.imagePath" alt="pic" />
+                <h3 style="font-size:small">
+                    @faculty.name
+                </h3>
+                <h3 style="font-size:small">
+                    @faculty.title
+                </h3>
+                <h3 style="font-size:small">
+                    @faculty.office
+                </h3>
+                <h3 style="font-size:small">
+                    @faculty.phone
+                </h3>
+                <h3 style="font-size:small">
+                    @faculty.email
+                </h3>
+                <div id="peopleRow">
+                    @foreach (var (url, label) in new[]
+                    {
+                        (faculty.twitter, "Twitter"),
+                        (faculty.facebook, "Facebook"),
+                    })
+                    {
+                        if (!string.IsNullOrEmpty(url))
+                        {
+                            string icon = "";
+                            if (@label == "Twitter")
+                            {
+                                icon = "fa-brands fa-twitter";
+                            }
+                            if (@label == "Facebook")
+                            {
+                                icon = "fa-brands fa-facebook";
+                            }
+
+                            string newUrl;
+                            if (url.Contains("twitter.com") || url.Contains("facebook.com"))
+                            {
+                                newUrl = url;
+                            }
+                            else
+                            {
+                                newUrl = $"https://{label.ToLower()}.com/{url}";
+                            }
+                            <h3 style="font-size: small;"><a href="@newUrl" target="_blank"><i class="@icon"></i></a></h3>
+                        }
+                    }
+                    @if (!string.IsNullOrEmpty(@faculty.website))
+                    {
+                        <h3 style="font-size: small;"><a href="@faculty.website" target="_blank"><i class="fas fa-globe"></i></a></h3>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

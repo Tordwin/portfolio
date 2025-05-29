@@ -1,0 +1,42 @@
+/* Start of content settings */
+body {
+    background-image: url(img1.jpg);
+    background-position: center;
+	background-size: cover;
+}
+
+#breadcrumb {
+    padding: 5px;
+}
+
+.container {
+    background-color: #F7DED0;
+    padding-left: 15px;
+    border: 1px black solid;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+form {
+    padding: 15px;
+}
+
+body h2 {
+    padding-left: 15px;
+}
+
+#comments {
+    padding-left: 15px;
+}
+/* Makes the container spin when opening */
+.container {
+    animation: spin 2s;
+}
+/* End of content settings */
+/* Start of footer settings */
+footer {
+    margin-top: auto;
+}
+/* End of footer settings */

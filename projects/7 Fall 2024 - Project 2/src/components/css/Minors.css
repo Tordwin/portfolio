@@ -1,0 +1,38 @@
+/* Body Settings */
+#minorsContainer h2 {
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 50px;
+    background-color: #284b63;
+}
+
+#minorsContainer h3{
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+#minorsContainer a {
+    text-decoration: none;
+}
+
+#minorsContainer a:link {
+    color: #e0e1dd;
+}
+
+#minorsContainer a:visited {
+    color: #e0e1dd;
+}
+
+/* Try to follow this color pallete 
+    Navigation & Footer: 
+        background-color: #1b263b;
+
+    Body/Text Container:
+        background-color: #0d1b2a;
+    
+    H Elements:
+        background-color: #415a77;
+
+    Text Color:
+        color: #e0e1dd;
+*/

@@ -1,0 +1,60 @@
+header {
+    background-color: #33B1AA;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #9ECBCE;
+    margin: 5px;
+}
+
+.failurescontent {
+    max-width: 100%;
+    min-width: 400px;
+    position: relative;
+    background-color: white;
+    min-height: 400px;
+    max-height: 100%;
+}
+
+.failurescontent p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 20px;
+}
+
+.videocontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video {
+    flex: 1;
+    margin: 20px;
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+    .video {
+        flex: 1;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #33B1AA;
+    color: white;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    flex: 1;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -2,9 +2,8 @@
     include("../header.php");
 ?>
 
-
-<div id="top_block">
-    <h1>Edwin Chen</h1>
+<link rel="stylesheet" href="../styles/welcome.css">
+<div class="top-block">
     <p id="quote"></p>
 
     <script>
@@ -24,12 +23,17 @@
     </script>
 </div>
 
-<div id="about_block">
-    <h1>About Me</h1>
-    <p>I am a CIT (Computing and Information Technologies) major at <strong>Rochester Institute of Technology</strong>.
-        I am passionate for all things tech related and always looking for ways to grow both academically and personally.
-        I have a strong foundation in front-end and back-end development, and I am always looking to learn new ways to challenge and improve my skills.
-    </p>
+<div class="about-block">
+    <div class="about-me">
+        <h1>About Me</h1>
+        <p>I am a CIT (Computing and Information Technologies) major at <strong>Rochester Institute of Technology</strong>.
+            I am passionate for all things tech related and always looking for ways to grow both academically and personally.
+            I have a strong foundation in front-end and back-end development, and I am always looking to learn new ways to challenge and improve my skills.
+        </p>
+    </div>
+    <div class="about-picture">
+        <img src="../images/portrait.jpg" alt="Portrait of Edwin Chen" />
+    </div>
 </div>
 
 <?php

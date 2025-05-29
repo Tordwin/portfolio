@@ -1,0 +1,99 @@
+﻿@model ISchoolWebApp01.Models.Employment
+@{
+    ViewData["Title"] = "Employment";
+}
+
+@*
+    The sub-root nodes are :
+        introduction
+        degreeStatistics
+        employers
+        careers
+        coopTable
+        employmentTable
+*@
+
+<h1 style="color: white; margin-bottom: 10px;">Employment</h1>
+<h2 style="color: white; margin-bottom: 10px;">@Model.introduction.title</h2>
+<div id="introduction">
+    @foreach (var content in @Model.introduction.content)
+    {
+        <div>
+            <h3>@content.title</h3>
+            <p>@content.description</p>
+        </div>
+    }
+</div>
+
+<div class="empBodyContainer">
+    <div id="empData">
+        <h2>@Model.employers.title</h2>
+        @foreach (var content in @Model.employers.employerNames)
+        {
+            <p>@content</p>
+        }
+    </div>
+
+    <div id="empData">
+        <h2>@Model.careers.title</h2>
+        @foreach (var content in @Model.careers.careerNames)
+        {
+            <p>@content</p>
+        }
+    </div>
+</div>
+
+<div class="tableContainer">
+    <div id="coopTable">
+        <h2>CO-OP Opportunities</h2>
+        <table id="" class="display">
+            <thead>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Term</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var values in Model.coopTable.coopInformation)
+                {
+                    <tr>
+                        <td>@values.employer</td>
+                        <td>@values.degree</td>
+                        <td>@values.city</td>
+                        <td>@values.term</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="employmentTable">
+        <h2>Past Employment Opportunities</h2>
+        <table id="" class="display">
+            <thead>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Title</th>
+                    <th>Start Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var values in Model.employmentTable.professionalEmploymentInformation)
+                {
+                    <tr>
+                        <td>@values.employer</td>
+                        <td>@values.degree</td>
+                        <td>@values.city</td>
+                        <td>@values.title</td>
+                        <td>@values.startDate</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

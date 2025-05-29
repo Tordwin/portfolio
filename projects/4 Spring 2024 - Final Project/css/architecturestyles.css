@@ -1,0 +1,58 @@
+/* Start of content settings */
+.content {
+    padding-top: 20px;
+    background-color: #F7DED0;
+    height: auto;
+}
+
+.body ol li {
+    padding-top: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+    padding-bottom: 15px;
+}
+
+.body ol p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Adding block */
+img {
+    text-align: center;
+    width: 100%;
+	max-width: 800px;
+    display: block;
+    margin: auto;
+}
+/* End of content settings */
+
+/* Start of media settings */
+@media screen and (max-width: 1200px) {
+	.body ol p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.body ol p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.body ol p {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.body ol p {
+		font-size: 10px;
+	}
+}
+/* End of media settings */

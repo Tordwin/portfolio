@@ -1,0 +1,42 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Minors";
+}
+
+@*
+    Each child node has the following fields to be queried:
+        name
+        title
+        description
+        courses
+
+    Careers:
+        courseID
+        title
+        description
+*@
+
+<h1 style="color: white">Minors</h1>
+@foreach (var minorName in @Model.Minors.UgMinors)
+{
+    <div id="minorDetails">
+    <h2>@minorName.title</h2>
+    <p>@minorName.description</p>
+    <h3>Courses</h3>
+        <ul>
+            @foreach (var course in minorName.courses)
+            {
+                @foreach (var courseName in Model.Courses)
+                {
+                    if (course == @courseName.courseID)
+                    {
+                        <li id="collapseDescription">
+                            <p>@Html.Raw(courseName.title)</p>
+                            <p>@courseName.description</p>
+                        </li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+}

@@ -1,0 +1,206 @@
+/* Sitewide Styles */
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color:black;
+}
+
+body {
+    background-image: linear-gradient(to right,#FF5F6D, #FFC371);
+}
+
+footer {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+/* Homepage/About/Employment/News Styles */
+.display-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+/* About */
+.about {
+    background-color: bisque;
+    border: solid 5px black;
+    text-align: center;
+}
+
+/* Employment Degree Statistics */
+#degreeStats {
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+}
+
+#degreeItems {
+    background-color: bisque;
+    border: solid 5px black;
+    margin: 10px;
+}
+
+/* About Quote */
+#quote {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #6FC276;
+    border: solid 5px black;
+    margin: 10px;
+}
+
+#quote p {
+    margin: 10px;
+}
+
+#quote h3 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* News */
+#newsContainer {
+    display: flex;
+    gap: 20px;
+}
+
+#newsDate {
+    flex: 1;
+    border: 5px solid black;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: bisque;
+}
+
+.newsDate {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+#newsDisplay {
+    flex: 2;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: bisque;
+}
+
+/* Degree Styles */
+#newDegree {
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px black;
+    margin: 10px;
+}
+
+/* Minor Styles */
+#minorDetails {
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px black;
+    margin: 10px;
+}
+
+/* Employment Styles */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 20px;
+    border: solid 5px black;
+}
+
+.empBodyContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.empBodyContainer > * {
+    flex: 1;
+    margin: 10px;
+    max-width: 500px;
+}
+
+#empData {
+    background-color: bisque;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#coopTable,
+#employmentTable {
+    background-color: bisque;
+    padding: 20px;
+    border: solid 5px black;
+    width: 100%;
+}
+
+.tableContainer {
+    display: flex;
+    gap: 20px;
+}
+
+/* People Styles */
+#peopleTab {
+    border: 5px solid black;
+}
+
+.ui-tabs {
+    background-color: bisque;
+}
+
+.ui-tabs-nav {
+    background-color:bisque;
+    border: 0;
+}
+
+.ui-tabs-tab {
+    transition: background-color 0.3s ease;
+}
+
+#peopleRow {
+    display:flex;
+    gap: 10px;
+}
+
+.person {
+    min-height: 260px;
+    width: 200px;
+    display: inline-table;
+}
+
+.person > img {
+    height: 170px;
+    width: 170px;
+    margin-bottom: 15px;
+}
+
+/* Responsive Media */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
