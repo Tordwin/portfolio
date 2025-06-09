@@ -66,6 +66,10 @@
     <h3>Spring 2025 - Project 3</h3>
 </div>
 
+<div class="pastebin-project">
+    <h3>Pastebin Backend</h3>
+</div>
+
 <?php
     include ("../footer.php");
 ?>
