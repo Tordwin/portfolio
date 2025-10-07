@@ -7,7 +7,7 @@
                         <a href="https://github.com/Tordwin"><i class="fa-brands fa-github"></i></a>
                     </div>
                     <div class="footer-copyright">
-                        <p>Copyright &copy; 2025; Designed by <span class="designer">Edwin Chen</span></p>
+                        <p>Copyright &copy; <?php echo date("Y"); ?> | Designed by <span class="designer">Edwin Chen</span></p>
                     </div>
                 </div>
             </footer>
