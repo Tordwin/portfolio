@@ -1,8 +1,8 @@
 <?php
-    include("../header.php");
+    include("header.php");
 ?>
 
-<link rel="stylesheet" href="../styles/welcome.css">
+<link rel="stylesheet" href="styles/welcome.css">
 <div class="top-block">
     <p id="quote"></p>
 
@@ -36,10 +36,10 @@
         </p>
     </div>
     <div class="about-picture">
-        <img src="../images/portrait.jpg" alt="Portrait of Edwin Chen" />
+        <img src="images/portrait.jpg" alt="Portrait of Edwin Chen" />
     </div>
 </div>
 
 <?php
-    include ("../footer.php");
+    include ("footer.php");
 ?>

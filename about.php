@@ -1,8 +1,8 @@
 <?php
-    include("../header.php");
+    include("header.php");
 ?>
 
-<link rel="stylesheet" href="../styles/about.css">
+<link rel="stylesheet" href="styles/about.css">
 
 <div class="about-container">
     <div class="top-about">
@@ -42,5 +42,5 @@
 
 
 <?php
-    include ("../footer.php");
+    include ("footer.php");
 ?>

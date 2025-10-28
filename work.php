@@ -1,6 +1,8 @@
 <?php
-    include("../header.php");
+    include("header.php");
 ?>
+
+<link rel="stylesheet" href="styles/work.css">
 
 <section id="projects">
     <h2>My Projects</h2>
@@ -10,11 +12,13 @@
             <ul>
                 <li>Developed a dynamic, interactive web form using JavaScript by implementing form generation to dynamically create menus and handle user interactions</li>
                 <li>Implemented the management of localStorage and cookies allowing for seamless user experience that preserves data across browser sessions</li>
-                <li>Incorporated robust client-side validation methods that include email pattern matching, age verification, and error handling</li>
+                <li id="somethingelse">Incorporated robust client-side validation methods that include email pattern matching, age verification, and error handling</li>
                 <li>Created a custom JavaScript animation for image transitions for fade-in/fade-out effects along with a 360-degree rotation that optimizes the performance for UI interactions</li>
             </ul>
             <a href="#">View Project</a>
         </div>
+
+        
 
         <div class="ischool-website">
             <h3>ISchool Website</h3>
@@ -112,5 +116,5 @@
 </section>
 
 <?php
-    include ("../footer.php");
+    include ("footer.php");
 ?>

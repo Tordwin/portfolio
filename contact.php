@@ -1,8 +1,9 @@
 <?php
-    include("../header.php");
+    include("header.php");
 ?>
 
-<link rel="stylesheet" href="../styles/contact.css">
+<link rel="stylesheet" href="styles/contact.css">
+
 <div class="contact">
     <div class="row">
         <div class="contact-left">
@@ -39,5 +40,5 @@ Instagram - @tordwin
 Discord - tordwin -->
 
 <?php
-    include ("../footer.php");
+    include ("footer.php");
 ?>
