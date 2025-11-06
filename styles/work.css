@@ -1,3 +1,15 @@
+.projects-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
 h2 {
     color: white;
     max-width: 1350px;
@@ -8,29 +20,33 @@ h2 {
 .dating-website h3, .dating-website ul li, .dating-website p, .dating-website a {
     color: white;
     padding: 5px;
+    width: 250px;
+    list-style-type: none;
 }
 
 .ischool-website h3, .ischool-website ul li, .ischool-website p, .ischool-website a {
     color: white;
     padding: 5px;
+    width: 250px;
+    list-style-type: none;
 }
 
 .healthncare-website h3, .healthncare-website ul li, .healthncare-website p, .healthncare-website a {
     color: white;
     padding: 5px;
+    width: 250px;
+    list-style-type: none;
 }
 
 .italy-travel-guide h3, .italy-travel-guide ul li, .italy-travel-guide p, .italy-travel-guide a {
     color: white;
     padding: 5px;
+    width: 250px;
+    list-style-type: none;
 }
 
 .spotify-wireframe h3, .spotify-wireframe ul li, .spotify-wireframe p, .spotify-wireframe a {
     color: white;
     padding: 5px;
-}
-
-.projects-container {
-    max-width: 1350px;
-    margin: 0 auto;
+    width: 250px;
 }
