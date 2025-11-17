@@ -102,21 +102,23 @@ footer {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.icons {
+.social-icons {
     display: flex;
     justify-content: center;
 }
 
-.icons a {
+.social-icons a {
     text-decoration: none;
-    margin: 10px;
-    border-radius: 100%;
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s;
 }
 
-.icons a i {
-    font-size : 2em;
-    color: black;
-    opacity: 0.9;
+.social-icons a:hover {
+    color: #00ADB5;
+    transform: translateY(-5px);
 }
 
 .footer-copyright {

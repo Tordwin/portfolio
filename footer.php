@@ -1,6 +1,6 @@
                 <footer>
                     <div class="footer-container">
-                        <div class="icons">
+                        <div class="social-icons">
                             <a href="https://www.facebook.com/chenedwin6/"><i class="fa-brands fa-facebook"></i></a>
                             <a href="https://www.instagram.com/tordwin/"><i class="fa-brands fa-square-instagram"></i></a>
                             <a href="https://www.linkedin.com/in/chenedwin6"><i class="fa-brands fa-linkedin"></i></a>
