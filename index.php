@@ -22,7 +22,7 @@
     </script>
 </div>
 
-<div class="welcome">
+<section id="welcome">
     <div class="about-picture">
         <img src="images/portrait.jpg" alt="Portrait of Edwin Chen" />
     </div>
@@ -63,7 +63,7 @@
                 </ul>
             </div>
         </div>
-</div>
+</section>
 
 <section id="projects">
     <h2>My Projects</h2>
