@@ -164,7 +164,7 @@ footer {
    TOP BLOCK (HERO SECTION)
 -------------------------------------------------- */
 .top-block {
-    background-image: url("../images/coding.jpg");
+    background-image: url("./images/coding.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -182,19 +182,33 @@ footer {
 -------------------------------------------------- */
 .welcome {
     display: flex;
+    gap: 50px;
 }
 
 .about-picture img {
-    margin-top: 20px;
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 .about-block {
     padding: 10px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+/* --------------------------------------------------
+   HOBBIES
+-------------------------------------------------- */
+.hobbies ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.hobbies ul li {
+    color: white;
+    list-style-type: none;
 }
 
 /* --------------------------------------------------
@@ -285,13 +299,6 @@ form textarea {
     padding: 5px;
     width: 250px;
     list-style-type: none;
-}
-
-/* --------------------------------------------------
-   HOBBIES
--------------------------------------------------- */
-.hobbies ul li {
-    color: white;
 }
 
 /* --------------------------------------------------

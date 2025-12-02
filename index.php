@@ -26,11 +26,10 @@
     <div class="about-picture">
         <img src="images/portrait.jpg" alt="Portrait of Edwin Chen" />
     </div>
-    <div class="about-block">
         <div class="about-me">
             <h1>About Me</h1>
             <p> 
-                Welcome! I am Edwin Chen, a Computing & Information Technology student at Rochester Institute of Technology.
+                Welcome! My name is Edwin and I am a Computing & Information Technology student at Rochester Institute of Technology.
                 I am passionate about software development, web applications, database integrations, and website creation.
                 I have hands-on experience with languages such as Python, JavaScript, SQL, PHP, React and much more!
                 I enjoy applying my skills to projects that allow for creativity and problem-solving with real life applications.
@@ -42,29 +41,28 @@
                 cooking and experimenting with new recipes, playing multiple games, or leisurely playing the violin. To stay active within this deskbound life
                 I play competitive sports like volleyball, badminton, and recently bowling.
             </p>
+        </div>
 
-            <div class="extras-container">
-                <div class="funfact">
-                    <h1>Fun Fact</h1>
-                    <p>My birthday is the 22nd of February, which just so happens to the be same birthday as the first president of the United States, George Washington.</p>
-                </div>
-                <div class="hobbies">
-                    <h1>My Hobbies</h1>
-                    <ul>
-                        <li>Cooking</li>
-                        <li>Games</li>
-                        <li>Violin</li>
-                        <li>Volleyball</li>
-                        <li>Badminton</li>
-                        <li>Bowling</li>
-                        <li>Tech</li>
-                        <li>Camping</li>
-                        <li>Fishing</li>
-                    </ul>
-                </div>
+        <div class="extras-container">
+            <div class="funfact">
+                <h1>Fun Fact</h1>
+                <p>My birthday is the 22nd of February, which just so happens to the be same birthday as the first president of the United States, George Washington.</p>
+            </div>
+            <div class="hobbies">
+                <h1>My Hobbies</h1>
+                <ul>
+                    <li>Cooking</li>
+                    <li>Games</li>
+                    <li>Violin</li>
+                    <li>Volleyball</li>
+                    <li>Badminton</li>
+                    <li>Bowling</li>
+                    <li>Tech</li>
+                    <li>Camping</li>
+                    <li>Fishing</li>
+                </ul>
             </div>
         </div>
-    </div>
 </div>
 
 <section id="projects">
