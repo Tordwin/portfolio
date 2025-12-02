@@ -1,0 +1,314 @@
+/* --------------------------------------------------
+   RESET & GLOBAL STYLES
+-------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #222831;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1 {
+    color: #00ADB5;
+}
+
+body p {
+    color: #EEEEEE;
+}
+
+h2 {
+    color: white;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+/* --------------------------------------------------
+   LAYOUT WRAPPER
+-------------------------------------------------- */
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* --------------------------------------------------
+   NAVIGATION BAR
+-------------------------------------------------- */
+nav {
+    background-color: #393E46;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav li:first-child img {
+    height: 40px;
+    width: 40px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+/* --------------------------------------------------
+   SIDEBAR MENU (MOBILE)
+-------------------------------------------------- */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #393E46;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li,
+.sidebar a {
+    width: 100%;
+}
+
+.menu-button {
+    display: none;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+footer {
+    margin-top: auto;
+    background-color: #393E46;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #00ADB5;
+    transform: translateY(-5px);
+}
+
+.footer-copyright {
+    background-color: #393E46;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footer-copyright p {
+    color: white;
+    opacity: 0.7;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* --------------------------------------------------
+   TOP BLOCK (HERO SECTION)
+-------------------------------------------------- */
+.top-block {
+    background-image: url("../images/coding.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.top-block #quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+/* --------------------------------------------------
+   ABOUT SECTION
+-------------------------------------------------- */
+.welcome {
+    display: flex;
+}
+
+.about-picture img {
+    margin-top: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.about-block {
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* --------------------------------------------------
+   CONTACT SECTION
+-------------------------------------------------- */
+.contact {
+    padding: 10px;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.contact .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-left h1 {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.contact-left p {
+    margin-top: 15px;
+}
+
+.contact-left p i {
+    margin-right: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #393E46;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.contact-right form button {
+    display: inline-block;
+    background-color: #00ADB5;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* --------------------------------------------------
+   PROJECT GALLERY
+-------------------------------------------------- */
+.projects-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.dating-website h3,
+.dating-website ul li,
+.dating-website p,
+.dating-website a,
+.ischool-website h3,
+.ischool-website ul li,
+.ischool-website p,
+.ischool-website a,
+.healthncare-website h3,
+.healthncare-website ul li,
+.healthncare-website p,
+.healthncare-website a,
+.italy-travel-guide h3,
+.italy-travel-guide ul li,
+.italy-travel-guide p,
+.italy-travel-guide a,
+.spotify-wireframe h3,
+.spotify-wireframe ul li,
+.spotify-wireframe p,
+.spotify-wireframe a {
+    color: white;
+    padding: 5px;
+    width: 250px;
+    list-style-type: none;
+}
+
+/* --------------------------------------------------
+   HOBBIES
+-------------------------------------------------- */
+.hobbies ul li {
+    color: white;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE MEDIA QUERIES
+-------------------------------------------------- */
+@media (max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
