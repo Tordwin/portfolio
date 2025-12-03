@@ -276,33 +276,82 @@ form textarea {
 .projects-container {
     max-width: 1350px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 10px;
 }
 
-.dating-website h3,
-.dating-website ul li,
-.dating-website p,
-.dating-website a,
-.ischool-website h3,
-.ischool-website ul li,
-.ischool-website p,
-.ischool-website a,
-.healthncare-website h3,
-.healthncare-website ul li,
-.healthncare-website p,
-.healthncare-website a,
-.italy-travel-guide h3,
-.italy-travel-guide ul li,
-.italy-travel-guide p,
-.italy-travel-guide a,
-.spotify-wireframe h3,
-.spotify-wireframe ul li,
-.spotify-wireframe p,
-.spotify-wireframe a {
+.job-application-program {
     color: white;
-    padding: 5px;
-    width: 250px;
+}
+
+.job-application-program h3 {
+    color:#00ADB5;
+}
+
+.job-application-program ul li {
+    list-style-type: none;
+}
+
+.sfghc-program {
+    color: white;
+}
+
+.sfghc-program h3 {
+    color:#00ADB5;
+}
+
+.sfghc-program ul li {
+    list-style-type: none;
+}
+
+.sdsaf-website {
+    color: white;
+}
+
+.sdsaf-website h3 {
+    color:#00ADB5;
+}
+
+.sdsaf-website ul li {
+    list-style-type: none;
+}
+
+.ischool-website {
+    color: white;
+}
+
+.ischool-website h3 {
+    color:#00ADB5;
+}
+
+.ischool-website ul li {
+    list-style-type: none;
+}
+
+.healthncare-program {
+    color: white;
+}
+
+.healthncare-program h3 {
+    color:#00ADB5;
+}
+
+.healthncare-program ul li {
+    list-style-type: none;
+}
+
+.italy-website {
+    color: white;
+}
+
+.italy-website h3 {
+    color:#00ADB5;
+}
+
+.italy-website ul li {
     list-style-type: none;
 }
 

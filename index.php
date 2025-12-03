@@ -66,32 +66,57 @@
 </section>
 
 <section id="projects">
-    <h2>My Projects</h2>
+    <h2 style="color:#00ADB5">My Projects</h2>
     <div class="projects-container">
-        <div class="dating-website">
+        <div class="job-application-program">
             <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
-            <h3>Dating Website</h3>
+            <h3>Job Application Tracking Program<br>Back-End Development</h3>
             <ul>
-                <li>Developed a dynamic, interactive web form using JavaScript by implementing form generation to dynamically create menus and handle user interactions</li>
-                <li>Implemented the management of localStorage and cookies allowing for seamless user experience that preserves data across browser sessions</li>
-                <li>Incorporated robust client-side validation methods that include email pattern matching, age verification, and error handling</li>
-                <li>Created a custom JavaScript animation for image transitions for fade-in/fade-out effects along with a 360-degree rotation that optimizes the performance for UI interactions</li>
+                <li>Built a full-stack program that features a Java-based GUI that would streamline tracking job applications</li>
+                <li>Utilized Adminer to implement a SQL database that would store application details</li>
+                <li>Programmed an automated reminder that would alert a user for a follow-up time frame</li>
+                <li>Wrote optimized SQL queries to reliably and efficiently retrieve and send data</li>
+                <li>Designed an intuitive Java GUI that support data entry, efficient navigation, and visualization of the job applications</li>
+            </ul>
+        </div>
+
+        <div class="sfghc-program">
+            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <h3>Student Faculty Guest Help Center<br>Back-End Development</h3>
+            <ul>
+                <li>Designed database architecture using Lucidchart to ensure clear relationships and promote efficient data flow</li>
+                <li>Built and configured database to support architecture and application authentications</li>
+                <li>Populated database with data to enable testing, feature validations, and early development</li>
+                <li>Implemented secure passwords by encrypting sensitive data to promote security standards</li>
+                <li>Optimized the command-line interface to improve usability and a better user experience</li>
+                <li>Reviewed feedback and applied the corrections for better efficiency, performance, and future proofing</li>
+            </ul>
+        </div>
+
+        <div class="sdsaf-website">
+            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <h3>Senior Development Self-Assessment Form<br>Full-End Development</h3>
+            <ul>
+                <li>Developed backend logic to calculate and evaluate responses from candidate and generate personalized insight</li>
+                <li>Collaborated with Senior Development faculty to align the assessment to the program’s objectives</li>
+                <li>Utilized and programmed the integration with Adminer to collect user data based on SQL injections</li>
+                <li>Implemented accurate scoring and seamless user experience across all devices</li>
             </ul>
         </div>
 
         <div class="ischool-website">
             <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
-            <h3>ISchool Website</h3>
+            <h3>ISchool Website<br>Full-Stack Development</h3>
             <ul>
-                <li>Developed a dynamic web application utilizing Vite and JSX, showcasing proficiency in modern web development by fetching and displaying data from an API</li>
+                <li>Developed a dynamic web application utilizing Vite and JSX, showcasing proficiency in modern web development by fetching and displaying data from an API.</li>
                 <li>Enhanced user experience by integrating external modules that show progress, an advanced data visualization table, breadcrumbs for navigation, etc.</li>
                 <li>Implemented modular styled frontend development utilizing JavaScript and React that incorporates frameworks and third-party libraries</li>
             </ul>
         </div>
 
-        <div class="healthncare-website">
+        <div class="healthncare-program">
             <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
-            <h3>HealthNCare</h3>
+            <h3>HealthNCare<br>Back-End Development</h3>
             <ul>
                 <li>Designed and implemented a controller using the Model-View-Controller pattern to facilitate seamless communication between logging and user interaction modules</li>
                 <li>Developed a caloric algorithm that calculates exercise-specific calorie expenditure based on the user’s weight and exercise time</li>
@@ -99,24 +124,18 @@
             </ul>
         </div>
 
-        <div class="italy-travel-guide">
+        <div class="italy-website">
             <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
-            <h3>Italy Travel Guide</h3>
+            <h3>Italy Travel Guide<br>Front-End Development</h3>
             <ul>
                 <li>Designed and developed a professional travel homepage for Italy to showcase travel destinations, food, services, activities, and more</li>
                 <li>Utilized PHP to incorporate modular efficiency for code reuse and maintainability, JavaScript for dynamic form creation, animations, and handling user interactions, and CSS to
                     ensure a visually appealing and responsive design throughout all devices for all users</li>
             </ul>
         </div>
-
-        <div class="spotify-wireframe">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
-            <h3>Spotify Wireframe Design</h3>
-            <p>write about your creativity and how you can create a better user experience based on the design i made</p>
-        </div>
 </section>
 
-<div class="contact">
+<section id="contact" class="contact">
     <div class="row">
         <div class="contact-left">
             <h1 class="contact-title">Contact Me!</h1>
@@ -132,7 +151,7 @@
             </form>
         </div>
     </div>
-</div>
+</section>
 
 <?php
     include ("footer.php");
