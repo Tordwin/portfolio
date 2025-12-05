@@ -81,7 +81,7 @@
         </div>
 
         <div class="sfghc-program">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/sfghc-program.png" alt="Placeholder">
             <h3>Student Faculty Guest Help Center<br>Back-End Development</h3>
             <ul>
                 <li>Designed database architecture using Lucidchart to ensure clear relationships and promote efficient data flow</li>
@@ -94,7 +94,7 @@
         </div>
 
         <div class="sdsaf-website">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/sdsaf-website.png" alt="Placeholder">
             <h3>Senior Development Self-Assessment Form<br>Full-End Development</h3>
             <ul>
                 <li>Developed backend logic to calculate and evaluate responses from candidate and generate personalized insight</li>
@@ -105,7 +105,7 @@
         </div>
 
         <div class="ischool-website">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/ischool-website.png" alt="ISchool Website">
             <h3>ISchool Website<br>Full-Stack Development</h3>
             <ul>
                 <li>Developed a dynamic web application utilizing Vite and JSX, showcasing proficiency in modern web development by fetching and displaying data from an API.</li>
@@ -115,7 +115,7 @@
         </div>
 
         <div class="healthncare-program">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/healthncare-program.png" alt="HealthNCare Program">
             <h3>HealthNCare<br>Back-End Development</h3>
             <ul>
                 <li>Designed and implemented a controller using the Model-View-Controller pattern to facilitate seamless communication between logging and user interaction modules</li>
@@ -125,7 +125,7 @@
         </div>
 
         <div class="italy-website">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/italy-website.png" alt="Italy Travel Guide Website">
             <h3>Italy Travel Guide<br>Front-End Development</h3>
             <ul>
                 <li>Designed and developed a professional travel homepage for Italy to showcase travel destinations, food, services, activities, and more</li>
@@ -139,16 +139,8 @@
     <div class="row">
         <div class="contact-left">
             <h1 class="contact-title">Contact Me!</h1>
-            <p><i class="fa-solid fa-envelope"></i>Email: chenedwin6@gmail.com</p>
+            <p><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:chenedwin6@gmail.com">chenedwin6@gmail.com</a></p>
             <p><i class="fa-solid fa-phone"></i>Phone: 929-264-1896</p>
-        </div>
-        <div class="contact-right">
-            <form>
-                <input type="text" name="Name" placeholder="John Doe" required>
-                <input type="email" name="Email" placeholder="johndoe@email.com" required>
-                <textarea name="Message" rows="6" placeholder="Your message here..." required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
         </div>
     </div>
 </section>

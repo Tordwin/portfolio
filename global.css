@@ -32,7 +32,7 @@ h2 {
 
 img {
     height: 250px;
-    width: 250px;
+    width: 450px;
 }
 
 *, html {
@@ -125,7 +125,7 @@ nav a:hover {
    FOOTER
 -------------------------------------------------- */
 footer {
-    margin-top: auto;
+    margin-top: 20px;
     background-color: #393E46;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -225,11 +225,6 @@ footer {
     margin: 0 auto;
 }
 
-.contact .row {
-    display: flex;
-    flex-direction: row;
-}
-
 .contact-left {
     flex-basis: 35%;
 }
@@ -248,6 +243,10 @@ footer {
     margin-right: 15px;
     font-size: 20px;
     margin-left: 15px;
+}
+
+.contact-left p a {
+    color: white;
 }
 
 form input,
