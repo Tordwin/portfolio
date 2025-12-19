@@ -9,7 +9,7 @@
         // List of quotes to display
         const quotes = [
             "“The best error message is the one that never shows up.” — Thomas Fuchs",
-            "“Clean code always looks like it was written by someone who cares.” — Robert C. Martin",
+            "“Deleted code is debugged code.” — Jeff Sickel",
             "“Testing leads to failure, and failure leads to understanding.” — Burt Rutan",
             "“Make it work, make it right, make it fast.” — Kent Beck",
             "“Good code is its own best documentation.” — Steve McConnell",
