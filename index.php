@@ -8,12 +8,12 @@
     <script>
         // List of quotes to display
         const quotes = [
-            "“You should name a variable using the same care with which you name a first-born child.” — Robert C. Martin",
+            "“The best error message is the one that never shows up.” — Thomas Fuchs",
             "“Clean code always looks like it was written by someone who cares.” — Robert C. Martin",
-            "“Practice, Practice, Practice! Musicians don’t only play when they are on stage in front of an audience.”— Michael Toppa",
-            "“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” — Antoine de Saint-Exupery",
-            "“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” — Martin Fowler",
-            "“Programming isn't about what you know; it's about what you can figure out.” — Chris Pine"
+            "“Testing leads to failure, and failure leads to understanding.” — Burt Rutan",
+            "“Make it work, make it right, make it fast.” — Kent Beck",
+            "“Good code is its own best documentation.” — Steve McConnell",
+            "“First, solve the problem. Then, write the code.” — John Johnson"
         ];
         // Selecting random quote to display
         const quote = document.getElementById("quote");

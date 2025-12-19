@@ -409,5 +409,14 @@ footer {
         height: 200px;
     }
 
-    
+    .top-block #quote {
+        font-size: 10px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0px;
+        padding-top: 10px;
+    }
 }
