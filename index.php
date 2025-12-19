@@ -137,7 +137,7 @@
 
 <section id="contact" class="contact">
     <div class="row">
-        <div class="contact-left">
+        <div class="contact-block">
             <h1 class="contact-title">Contact Me!</h1>
             <p><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:chenedwin6@gmail.com">chenedwin6@gmail.com</a></p>
             <p><i class="fa-solid fa-phone"></i>Phone: 929-264-1896</p>

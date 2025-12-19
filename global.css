@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     min-height: 100vh;
     background-color: #222831;
@@ -27,7 +36,6 @@ h2 {
     color: white;
     max-width: 1350px;
     margin: 0 auto;
-    padding: 5px;
 }
 
 img {
@@ -193,7 +201,7 @@ footer {
 .about-picture img {
     padding: 10px;
     height: 250px;
-    width: 250px;
+    width: 1000px;
 }
 
 .about-block {
@@ -207,7 +215,7 @@ footer {
 -------------------------------------------------- */
 .hobbies ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-template-rows: repeat(2, auto);
 }
 
@@ -225,48 +233,28 @@ footer {
     margin: 0 auto;
 }
 
-.contact-left {
+.contact-block {
     flex-basis: 35%;
 }
 
-.contact-left h1 {
+.contact-block h1 {
     margin-top: 5px;
     margin-left: 10px;
     font-size: 40px;
 }
 
-.contact-left p {
+.contact-block p {
     margin-top: 15px;
 }
 
-.contact-left p i {
+.contact-block p i {
     margin-right: 15px;
     font-size: 20px;
     margin-left: 15px;
 }
 
-.contact-left p a {
+.contact-block p a {
     color: white;
-}
-
-form input,
-form textarea {
-    width: 90%;
-    border: 0;
-    outline: none;
-    background: #393E46;
-    padding: 15px;
-    margin: 15px 0;
-    color: white;
-    font-size: 18px;
-    border-radius: 6px;
-}
-
-.contact-right form button {
-    display: inline-block;
-    background-color: #00ADB5;
-    padding: 15px;
-    margin-bottom: 10px;
 }
 
 /* --------------------------------------------------
@@ -357,7 +345,33 @@ form textarea {
 /* --------------------------------------------------
    RESPONSIVE MEDIA QUERIES
 -------------------------------------------------- */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+
+    .top-block {
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .top-block #quote {
+        font-size: 12px;
+    }
+
+    #welcome {
+        flex-direction: column;
+        padding: 0 10px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .about-picture img {
+        width: 220px;
+        height: 220px;
+    }
+
+    #projects {
+        padding: 0 10px;
+    }
+
     .hideOnMobile {
         display: none;
     }
@@ -367,8 +381,31 @@ form textarea {
     }
 }
 
+@media (max-width: 600px) {
+    body h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav li {
+        height: 56px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 400px) {
     .sidebar {
         width: 100%;
+    }
+
+    .about-picture img {
+        width: 200px;
+        height: 200px;
     }
 }
