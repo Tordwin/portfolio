@@ -1,10 +1,10 @@
                 <footer>
                     <div class="footer-container">
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/chenedwin6/"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/tordwin/"><i class="fa-brands fa-square-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/chenedwin6"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/Tordwin"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/chenedwin6/">Facebook</a>
+                            <a href="https://www.instagram.com/tordwin/">Instagram</a>
+                            <a href="https://www.linkedin.com/in/chenedwin6">LinkedIn</a>
+                            <a href="https://github.com/Tordwin">GitHub</a>
                         </div>
                         <div class="footer-copyright">
                             <p>Copyright &copy; <?php echo date("Y"); ?> | Designed by <span class="designer">Edwin Chen</span></p>
