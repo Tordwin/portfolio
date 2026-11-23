@@ -1,25 +1,11 @@
 <?php
-    include("header.php");
+    require __DIR__ . '/header.php';
 ?>
 
+<main id="main-content">
 <div class="top-block">
-    <p id="quote"></p>
+    <p id="quote">“The best error message is the one that never shows up.” — Thomas Fuchs</p>
 
-    <script>
-        // List of quotes to display
-        const quotes = [
-            "“The best error message is the one that never shows up.” — Thomas Fuchs",
-            "“Deleted code is debugged code.” — Jeff Sickel",
-            "“Testing leads to failure, and failure leads to understanding.” — Burt Rutan",
-            "“Make it work, make it right, make it fast.” — Kent Beck",
-            "“Good code is its own best documentation.” — Steve McConnell",
-            "“First, solve the problem. Then, write the code.” — John Johnson"
-        ];
-        // Selecting random quote to display
-        const quote = document.getElementById("quote");
-        const ranIndex = Math.floor(Math.random() * quotes.length);
-        quote.textContent = quotes[ranIndex];
-    </script>
 </div>
 
 <section id="welcome">
@@ -36,7 +22,7 @@
                 Having experienced RIT's co-op programs, I have developed and strengthened my communication and leadership abilities.
                 I am enthusiastic about technology and I enjoy bringing ideas to life through the fingertips.
             </p>
-            <h1>Outside the Computer</h1>
+            <h2>Outside the Computer</h2>
             <p>I'm someone who enjoys creativity and the technical sides of life. When I'm not coding and diving into the world of tech you'll find me 
                 cooking and experimenting with new recipes, playing multiple games, or leisurely playing the violin. To stay active within this deskbound life
                 I play competitive sports like volleyball, badminton, and recently bowling.
@@ -45,11 +31,11 @@
 
         <div class="extras-container">
             <div class="funfact">
-                <h1>Fun Fact</h1>
+                <h2>Fun Fact</h2>
                 <p>My birthday is the 22nd of February, which just so happens to the be same birthday as the first president of the United States, George Washington.</p>
             </div>
             <div class="hobbies">
-                <h1>My Hobbies</h1>
+                <h2>My Hobbies</h2>
                 <ul>
                     <li>Cooking</li>
                     <li>Games</li>
@@ -69,7 +55,7 @@
     <h2 style="color:#00ADB5">My Projects</h2>
     <div class="projects-container">
         <div class="job-application-program">
-            <img src="images/elementor-placeholder-image.jpg" alt="Placeholder">
+            <img src="images/elementor-placeholder-image.jpg" alt="Project preview coming soon" loading="lazy">
             <h3>Job Application Tracking Program<br>Back-End Development</h3>
             <ul>
                 <li>Built a full-stack program that features a Java-based GUI that would streamline tracking job applications</li>
@@ -81,7 +67,7 @@
         </div>
 
         <div class="sfghc-program">
-            <img src="images/sfghc-program.png" alt="Placeholder">
+            <img src="images/sfghc-program.png" alt="Student Faculty Guest Help Center program" loading="lazy">
             <h3>Student Faculty Guest Help Center<br>Back-End Development</h3>
             <ul>
                 <li>Designed database architecture using Lucidchart to ensure clear relationships and promote efficient data flow</li>
@@ -94,18 +80,18 @@
         </div>
 
         <div class="sdsaf-website">
-            <img src="images/sdsaf-website.png" alt="Placeholder">
-            <h3>Senior Development Self-Assessment Form<br>Full-End Development</h3>
+            <img src="images/sdsaf-website.png" alt="Senior Development Self-Assessment Form website" loading="lazy">
+            <h3>Senior Development Self-Assessment Form<br>Full-Stack Development</h3>
             <ul>
                 <li>Developed backend logic to calculate and evaluate responses from candidate and generate personalized insight</li>
                 <li>Collaborated with Senior Development faculty to align the assessment to the program’s objectives</li>
-                <li>Utilized and programmed the integration with Adminer to collect user data based on SQL injections</li>
+                <li>Integrated a SQL database managed through Adminer to collect user data</li>
                 <li>Implemented accurate scoring and seamless user experience across all devices</li>
             </ul>
         </div>
 
         <div class="ischool-website">
-            <img src="images/ischool-website.png" alt="ISchool Website">
+            <img src="images/ischool-website.png" alt="ISchool Website" loading="lazy">
             <h3>ISchool Website<br>Full-Stack Development</h3>
             <ul>
                 <li>Developed a dynamic web application utilizing Vite and JSX, showcasing proficiency in modern web development by fetching and displaying data from an API.</li>
@@ -115,7 +101,7 @@
         </div>
 
         <div class="healthncare-program">
-            <img src="images/healthncare-program.png" alt="HealthNCare Program">
+            <img src="images/healthncare-program.png" alt="HealthNCare Program" loading="lazy">
             <h3>HealthNCare<br>Back-End Development</h3>
             <ul>
                 <li>Designed and implemented a controller using the Model-View-Controller pattern to facilitate seamless communication between logging and user interaction modules</li>
@@ -125,7 +111,7 @@
         </div>
 
         <div class="italy-website">
-            <img src="images/italy-website.png" alt="Italy Travel Guide Website">
+            <img src="images/italy-website.png" alt="Italy Travel Guide Website" loading="lazy">
             <h3>Italy Travel Guide<br>Front-End Development</h3>
             <ul>
                 <li>Designed and developed a professional travel homepage for Italy to showcase travel destinations, food, services, activities, and more</li>
@@ -133,18 +119,20 @@
                     ensure a visually appealing and responsive design throughout all devices for all users</li>
             </ul>
         </div>
+    </div>
 </section>
 
 <section id="contact" class="contact">
     <div class="row">
         <div class="contact-block">
-            <h1 class="contact-title">Contact Me!</h1>
-            <p><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:chenedwin6@gmail.com">chenedwin6@gmail.com</a></p>
-            <p><i class="fa-solid fa-phone"></i>Phone: 929-264-1896</p>
+            <h2 class="contact-title">Contact Me!</h2>
+            <p>Email: <a href="mailto:chenedwin6@gmail.com">chenedwin6@gmail.com</a></p>
+            <p>Phone: <a href="tel:+19292641896">929-264-1896</a></p>
         </div>
     </div>
 </section>
+</main>
 
 <?php
-    include ("footer.php");
+    require __DIR__ . '/footer.php';
 ?>

@@ -1,41 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Edwin Chen - IT</title>
-            <link rel="icon" href="images/portrait.jpg">
-            <link rel="stylesheet" href="global.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        </head>
-        <body>
-            <div class="wrapper">
-                <header>
-                    <nav>
-                        <ul class="sidebar">
-                            <li><a href="#" onclick="hideSidebar(); return false;"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                            <li><a href="#welcome">About</a></li>
-                            <li><a href="#projects">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="index.php"><img src="images/portrait.jpg" alt="Portrait of Edwin Chen" /></a></li>
-                            <li class="hideOnMobile"><a href="#welcome">About</a></li>
-                            <li class="hideOnMobile"><a href="#projects">Work</a></li>
-                            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
-                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-                        </ul>
-                    </nav>
-
-                    <script>
-                        function showSidebar() {
-                            const sidebar = document.querySelector(".sidebar");
-                            sidebar.style.display = 'flex';
-                        }
-
-                        function hideSidebar() {
-                            const sidebar = document.querySelector(".sidebar");
-                            sidebar.style.display = 'none';
-                        }
-                    </script>
-                </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Edwin Chen's portfolio of software development, web applications, and database projects.">
+        <title>Edwin Chen - IT</title>
+        <link rel="icon" href="images/portrait.jpg">
+        <link rel="stylesheet" href="global.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content">Skip to content</a>
+        <div class="wrapper">
+            <header>
+                <nav aria-label="Main navigation">
+                    <a class="home-link" href="index.php" aria-label="Edwin Chen home">
+                        <img src="images/portrait.jpg" alt="" width="40" height="40">
+                    </a>
+                    <button class="menu-button" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </button>
+                    <ul class="nav-links" id="primary-navigation">
+                        <li><a href="#welcome">About</a></li>
+                        <li><a href="#projects">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
