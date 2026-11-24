@@ -54,9 +54,8 @@
                         </ul>
                     </details>
                 </div>
-                <div class="image-placeholder featured-placeholder">
-                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="7" width="38" height="34" rx="3"/><circle cx="16" cy="18" r="4"/><path d="m6 34 11-10 8 7 7-10 11 13"/></svg>
-                    <p>Image not available</p>
+                <div class="featured-image">
+                    <img src="images/crafty-studio.png" alt="The Crafty Studio makerspace member portal login screen" loading="lazy" width="1905" height="908">
                 </div>
             </article>
 

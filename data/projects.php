@@ -7,8 +7,8 @@ return [
         'category' => 'backend web',
         'discipline' => 'Web application / Backend & database engineering',
         'date' => 'Aug 2026 – Present',
-        'image' => null,
-        'alt' => '',
+        'image' => 'images/crafty-studio.png',
+        'alt' => 'The Crafty Studio makerspace member portal login screen',
         'description' => 'A makerspace management platform that brings member access, reservations, and staff operations together.',
         'tags' => ['TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Vitest'],
         'highlights' => [
