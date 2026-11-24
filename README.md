@@ -1,7 +1,26 @@
 # Edwin Chen's portfolio
 
-A PHP portfolio showcasing personal and school projects. No database, Node.js,
-Composer, or build step is required.
+A PHP portfolio showcasing Edwin's Computing & Information Technology projects,
+experience, skills, and education at RIT. No database, Node.js, Composer,
+or build step is required. Assets, fonts, and interactions work without a CDN.
+
+## Content and design
+
+- `index.php`: introduction, featured project, experience, skills, education, and contact.
+- `data/projects.php`: the six additional projects, technology tags, and contribution details.
+- `header.php` / `footer.php`: shared navigation, metadata, and social links.
+- `global.css`: the original charcoal (#222831), gray (#393E46), teal (#00ADB5),
+  and off-white (#EEEEEE) palette, responsive layouts, and reduced-motion support.
+- `assets/favicon.svg`: the text monogram used for the browser icon.
+- `main.js`: original headline quotes, animated dropdowns and mobile navigation,
+  project filters, and current-section links.
+- `assets/edwin-chen-resume.pdf`: downloadable resume supplied by Edwin. Replace
+  this file when updating the resume.
+
+All seven projects and their details remain accessible with JavaScript disabled.
+Project filtering is enabled when JavaScript is available and applies to the six
+cards below the featured project. Previews use existing project screenshots;
+projects without screenshots show an “Image not available” placeholder.
 
 ## Run locally on Windows
 
