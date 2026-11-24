@@ -24,6 +24,9 @@
                     <span>Brooklyn, NY <span class="location-divider" aria-hidden="true">/</span> Rochester Institute of Technology</span>
                 </div>
             </div>
+            <div class="hero-portrait">
+                <img src="images/portrait-cutout.png" alt="Portrait of Edwin Chen" width="1254" height="1254" fetchpriority="high">
+            </div>
         </div>
         <div class="container hero-footnote">
             <p>From the interface to the infrastructure.</p>

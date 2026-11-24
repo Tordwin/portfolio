@@ -12,6 +12,8 @@ or build step is required. Assets, fonts, and interactions work without a CDN.
 - `global.css`: the original charcoal (#222831), gray (#393E46), teal (#00ADB5),
   and off-white (#EEEEEE) palette, responsive layouts, and reduced-motion support.
 - `assets/favicon.svg`: the text monogram used for the browser icon.
+- `images/portrait-cutout.png`: transparent portrait used with a charcoal and teal
+  backdrop in the hero; the original photo remains in `images/portrait.jpg`.
 - `main.js`: original headline quotes, animated project dialogs and mobile navigation,
   project filters, and current-section links.
 - `assets/edwin-chen-resume.pdf`: downloadable resume supplied by Edwin. Replace
