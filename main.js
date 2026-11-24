@@ -143,8 +143,8 @@ if (typeof projectDialog.showModal === 'function') {
             dialogTitle.focus({ preventScroll: true });
             if (!reducedMotion.matches && projectDialog.animate) {
                 dialogAnimation = projectDialog.animate(
-                    [{ opacity: 0, transform: 'translateY(12px) scale(.98)' }, { opacity: 1, transform: 'none' }],
-                    { duration: 180, easing: 'ease-out' }
+                    [{ opacity: 0, transform: 'translate3d(0, 6px, 0)' }, { opacity: 1, transform: 'translate3d(0, 0, 0)' }],
+                    { duration: 140, easing: 'ease-out', fill: 'both' }
                 );
             }
         });
@@ -153,16 +153,14 @@ if (typeof projectDialog.showModal === 'function') {
     function closeProjectDialog() {
         if (!projectDialog.open || closing) return;
         closing = true;
-        if (dialogAnimation) dialogAnimation.cancel();
-        if (reducedMotion.matches || !projectDialog.animate) {
+        if (reducedMotion.matches || !dialogAnimation) {
             projectDialog.close();
             return;
         }
-        dialogAnimation = projectDialog.animate(
-            [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(8px) scale(.98)' }],
-            { duration: 140, easing: 'ease-in' }
-        );
-        dialogAnimation.onfinish = () => projectDialog.close();
+        // Reverse from the current frame, including when closed during the entrance.
+        dialogAnimation.reverse();
+        dialogAnimation.updatePlaybackRate(-1.4);
+        dialogAnimation.finished.then(() => projectDialog.close(), () => {});
     }
 
     projectDialog.querySelector('form').addEventListener('submit', (event) => {

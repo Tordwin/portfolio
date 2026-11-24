@@ -125,8 +125,9 @@ h1 > span { color: var(--teal); }
 .project-card .project-details-trigger { margin-top: auto; }
 
 /* Project overview dialog */
-.project-dialog { width: min(720px, calc(100% - 32px)); max-height: calc(100dvh - 48px); margin: auto; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: var(--background); color: var(--ink); box-shadow: 0 24px 80px rgb(0 0 0 / 40%); overscroll-behavior: contain; }
-.project-dialog::backdrop { background: rgb(0 0 0 / 65%); backdrop-filter: blur(4px); }
+.project-dialog { width: min(720px, calc(100% - 32px)); max-height: calc(100dvh - 48px); margin: auto; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: var(--background); color: var(--ink); box-shadow: 0 16px 40px rgb(0 0 0 / 35%); overscroll-behavior: contain; }
+.project-dialog[open] { will-change: transform, opacity; }
+.project-dialog::backdrop { background: rgb(0 0 0 / 65%); }
 .project-dialog-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
 .project-dialog-header .eyebrow { margin-bottom: 12px; }
 .project-dialog h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.15; }
@@ -218,7 +219,7 @@ h1 > span { color: var(--teal); }
     .nav-links { flex-wrap: wrap; padding-block: 8px; width: 100%; gap: 8px 20px; }
     .js .navigation { flex-wrap: nowrap; }
     .js .menu-button { display: flex; }
-    .js .nav-links { display: flex; flex-direction: column; align-items: stretch; gap: 2px; position: absolute; top: calc(100% + 8px); right: 0; width: min(320px, 100%); background: var(--background); border: 1px solid var(--line); border-radius: 8px; padding: 12px; box-shadow: 0 12px 28px rgb(0 0 0 / 20%); visibility: hidden; opacity: 0; transform: translateY(-10px); pointer-events: none; transition: opacity .22s ease, transform .22s ease, visibility 0s linear .22s; }
+    .js .nav-links { display: flex; flex-direction: column; align-items: stretch; gap: 2px; position: absolute; top: calc(100% + 8px); right: 0; width: min(320px, 100%); background: var(--background); border: 1px solid var(--line); border-radius: 8px; padding: 12px; box-shadow: 0 12px 28px rgb(0 0 0 / 20%); visibility: hidden; opacity: 0; transform: translate3d(0, -6px, 0); pointer-events: none; will-change: transform, opacity; transition: opacity .14s ease-out, transform .14s ease-out, visibility 0s linear .14s; }
     .js .nav-links.is-open { visibility: visible; opacity: 1; transform: translateY(0); pointer-events: auto; transition-delay: 0s; }
     .js .nav-links a { display: flex; width: 100%; padding: 10px 14px; border-radius: 4px; }
     .js .nav-links a:hover { background: var(--surface); }
