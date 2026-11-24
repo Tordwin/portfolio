@@ -75,6 +75,7 @@ h1 > span { color: var(--teal); }
 .hero-footnote ul { display: flex; flex-wrap: wrap; gap: 28px; list-style: none; }
 
 /* Work */
+.section.work-section { padding-bottom: clamp(28px, 4vw, 48px); }
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-bottom: 38px; }
 .section-heading > p { max-width: 355px; color: var(--muted); }
 .section-heading .eyebrow { margin-bottom: 14px; }
@@ -140,7 +141,7 @@ h1 > span { color: var(--teal); }
 .project-dialog-body h3 { margin-block: 28px 16px; font-size: 1.125rem; }
 .project-dialog-body > ul:not(.tags) { padding-left: 20px; color: var(--muted); }
 .project-dialog-body > ul:not(.tags) li + li { margin-top: 14px; }
-.work-footer { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 16px; margin-top: 40px; font-size: .9375rem; }
+.work-footer { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 16px; margin-top: 24px; font-size: .9375rem; }
 .work-footer p { color: var(--muted); }
 
 /* Experience */
@@ -276,7 +277,7 @@ h1 > span { color: var(--teal); }
     .projects-grid { grid-template-columns: minmax(0, 1fr); }
     .project-card-content { padding: 24px 24px 12px; }
     .project-image { aspect-ratio: 5 / 3; }
-    .work-footer { flex-direction: column; gap: 6px; margin-top: 32px; }
+    .work-footer { flex-direction: column; gap: 6px; margin-top: 20px; }
     .experience-layout { grid-template-columns: minmax(0, 1fr); gap: 36px; }
     .experience-intro h2 br { display: none; }
     .experience-intro > p:last-child { max-width: 100%; margin-top: 20px; }
