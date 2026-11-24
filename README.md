@@ -7,7 +7,7 @@ or build step is required. Assets, fonts, and interactions work without a CDN.
 ## Content and design
 
 - `index.php`: introduction, featured project, experience, skills, education, and contact.
-- `data/projects.php`: the six additional projects, technology tags, and contribution details.
+- `data/projects.php`: all seven project cards, technology tags, and contribution details.
 - `header.php` / `footer.php`: shared navigation, metadata, and social links.
 - `global.css`: the original charcoal (#222831), gray (#393E46), teal (#00ADB5),
   and off-white (#EEEEEE) palette, responsive layouts, and reduced-motion support.
@@ -18,8 +18,9 @@ or build step is required. Assets, fonts, and interactions work without a CDN.
   this file when updating the resume.
 
 All seven projects and their details remain accessible with JavaScript disabled.
-Project filtering is enabled when JavaScript is available and applies to the six
-cards below the featured project. Previews use existing project screenshots;
+Project filtering is enabled when JavaScript is available and applies to the seven
+cards below the featured project. The Crafty Studio appears in All projects,
+Backend & data, and Web applications. Previews use existing project screenshots;
 projects without screenshots show an “Image not available” placeholder.
 
 ## Run locally on Windows

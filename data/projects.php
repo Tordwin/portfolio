@@ -1,7 +1,23 @@
 <?php
 
-// Featured work lives in index.php. These are the six additional portfolio projects.
+// Filterable project cards, including the project featured in index.php.
 return [
+    [
+        'title' => 'The Crafty Studio',
+        'category' => 'backend web',
+        'discipline' => 'Web application / Backend & database engineering',
+        'date' => 'Aug 2026 – Present',
+        'image' => null,
+        'alt' => '',
+        'description' => 'A makerspace management platform that brings member access, reservations, and staff operations together.',
+        'tags' => ['TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'Vitest'],
+        'highlights' => [
+            'Designed PostgreSQL schemas and role-based permissions for member accounts, waivers, certifications, and staff actions.',
+            'Built profile and reservation APIs with scheduling conflict detection and booking cooldown rules.',
+            'Implemented bcrypt password hashing, versioned digital waivers, and check-in eligibility checks.',
+            'Developed searchable, tamper-resistant audit logging and validated backend logic with Vitest.',
+        ],
+    ],
     [
         'title' => 'Job Application Tracker',
         'category' => 'backend',
