@@ -20,7 +20,9 @@ if ($LASTEXITCODE -ne 0) {
     throw 'PHP could not start. Check the PHP installation and its Visual C++ runtime requirements (see README.md).'
 }
 
-foreach ($file in Get-ChildItem -LiteralPath $PSScriptRoot -Filter '*.php' -File) {
+$phpFiles = @(Get-ChildItem -LiteralPath $PSScriptRoot -Filter '*.php' -File)
+$phpFiles += @(Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'data') -Filter '*.php' -File)
+foreach ($file in $phpFiles) {
     & $phpPath -l $file.FullName
     if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 }
