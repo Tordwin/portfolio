@@ -97,6 +97,21 @@
             </div>
             <div class="work-footer"><p>More of what I’m working on.</p><a class="text-link" href="https://github.com/Tordwin">Find me on GitHub</a></div>
         </div>
+        <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title">
+            <div class="project-dialog-header">
+                <div>
+                    <p class="eyebrow">Project overview</p>
+                    <h2 id="project-dialog-title" tabindex="-1" autofocus></h2>
+                </div>
+                <form method="dialog">
+                    <button class="dialog-close" type="submit" aria-label="Close project details">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+                        <span>Close</span>
+                    </button>
+                </form>
+            </div>
+            <div class="project-dialog-body" id="project-dialog-body"></div>
+        </dialog>
     </section>
 
     <section id="experience" class="section experience-section" aria-labelledby="experience-title">

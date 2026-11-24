@@ -93,45 +93,109 @@ filterButtons.forEach((button) => {
     });
 });
 
-// Animate both directions while retaining native details behavior without JS.
-document.querySelectorAll('.project-details').forEach((details) => {
-    const summary = details.querySelector('summary');
-    let animation;
-    let expanding;
+// Show contributions without changing the card grid. Native details remain as a fallback.
+const projectDialog = document.getElementById('project-dialog');
+if (typeof projectDialog.showModal === 'function') {
+    const dialogTitle = document.getElementById('project-dialog-title');
+    const dialogBody = document.getElementById('project-dialog-body');
+    let dialogOpener;
+    let dialogAnimation;
+    let closing = false;
+    let backdropPointerDown = false;
 
-    summary.addEventListener('click', (event) => {
-        if (reducedMotion.matches || !details.animate) return;
-        event.preventDefault();
+    document.documentElement.classList.add('project-dialogs');
+    document.querySelectorAll('.project-details').forEach((details) => {
+        const project = details.closest('.project');
+        const trigger = document.createElement('button');
+        trigger.type = 'button';
+        trigger.className = 'project-details-trigger';
+        trigger.setAttribute('aria-haspopup', 'dialog');
+        trigger.setAttribute('aria-controls', 'project-dialog');
+        trigger.setAttribute('aria-label', `View details for ${project.querySelector('h3').textContent}`);
+        trigger.innerHTML = '<span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>';
+        trigger.querySelector('span').textContent = details.querySelector('summary').textContent;
+        details.before(trigger);
+        details.hidden = true;
 
-        const startHeight = details.getBoundingClientRect().height;
-        expanding = animation ? !expanding : !details.open;
-        if (animation) {
-            animation.onfinish = null;
-            animation.cancel();
+        trigger.addEventListener('click', () => {
+            if (projectDialog.open) return;
+            dialogOpener = trigger;
+            dialogTitle.textContent = project.querySelector('h3').textContent;
+
+            const discipline = document.createElement('p');
+            discipline.className = 'project-dialog-meta';
+            discipline.textContent = project.querySelector('.project-role, .project-discipline').textContent;
+            const date = details.querySelector('.project-date');
+            if (date) discipline.textContent += ` · ${date.textContent}`;
+
+            const description = project.querySelector('.featured-description, .project-description').cloneNode(true);
+            description.className = 'project-dialog-description';
+            const contributionTitle = document.createElement('h3');
+            contributionTitle.textContent = 'My contribution';
+            dialogBody.replaceChildren(
+                discipline, description, project.querySelector('.tags').cloneNode(true),
+                contributionTitle, details.querySelector('ul').cloneNode(true)
+            );
+
+            projectDialog.showModal();
+            document.documentElement.classList.add('project-dialog-open');
+            projectDialog.scrollTop = 0;
+            dialogTitle.focus({ preventScroll: true });
+            if (!reducedMotion.matches && projectDialog.animate) {
+                dialogAnimation = projectDialog.animate(
+                    [{ opacity: 0, transform: 'translateY(12px) scale(.98)' }, { opacity: 1, transform: 'none' }],
+                    { duration: 180, easing: 'ease-out' }
+                );
+            }
+        });
+    });
+
+    function closeProjectDialog() {
+        if (!projectDialog.open || closing) return;
+        closing = true;
+        if (dialogAnimation) dialogAnimation.cancel();
+        if (reducedMotion.matches || !projectDialog.animate) {
+            projectDialog.close();
+            return;
         }
-
-        details.open = true;
-        const borderHeight = parseFloat(getComputedStyle(details).borderTopWidth);
-        const endHeight = expanding
-            ? details.getBoundingClientRect().height
-            : summary.getBoundingClientRect().height + borderHeight;
-
-        details.classList.add('is-animating');
-        animation = details.animate(
-            [{ height: `${startHeight}px` }, { height: `${endHeight}px` }],
-            { duration: 260, easing: 'cubic-bezier(.2, .7, .2, 1)' }
+        dialogAnimation = projectDialog.animate(
+            [{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateY(8px) scale(.98)' }],
+            { duration: 140, easing: 'ease-in' }
         );
-        animation.onfinish = () => {
-            details.open = expanding;
-            details.classList.remove('is-animating');
-            animation = null;
-        };
-    });
+        dialogAnimation.onfinish = () => projectDialog.close();
+    }
 
-    reducedMotion.addEventListener('change', () => {
-        if (reducedMotion.matches && animation) animation.finish();
+    projectDialog.querySelector('form').addEventListener('submit', (event) => {
+        event.preventDefault();
+        closeProjectDialog();
     });
-});
+    projectDialog.addEventListener('cancel', (event) => {
+        event.preventDefault();
+        closeProjectDialog();
+    });
+    function isOutsideDialog(event) {
+        const rect = projectDialog.getBoundingClientRect();
+        return event.clientX < rect.left || event.clientX > rect.right
+            || event.clientY < rect.top || event.clientY > rect.bottom;
+    }
+    projectDialog.addEventListener('pointerdown', (event) => {
+        backdropPointerDown = event.target === projectDialog && isOutsideDialog(event);
+    });
+    projectDialog.addEventListener('click', (event) => {
+        if (backdropPointerDown && event.target === projectDialog && isOutsideDialog(event)) closeProjectDialog();
+        backdropPointerDown = false;
+    });
+    projectDialog.addEventListener('close', () => {
+        if (dialogAnimation) dialogAnimation.cancel();
+        dialogAnimation = null;
+        closing = false;
+        document.documentElement.classList.remove('project-dialog-open');
+        if (dialogOpener) dialogOpener.focus({ preventScroll: true });
+    });
+    reducedMotion.addEventListener('change', () => {
+        if (reducedMotion.matches && dialogAnimation) dialogAnimation.finish();
+    });
+}
 
 // Keep navigation in sync with the section being read, without intercepting scrolling.
 if ('IntersectionObserver' in window) {
