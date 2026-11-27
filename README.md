@@ -1,35 +1,23 @@
 # Edwin Chen's portfolio
 
-A PHP portfolio showcasing Edwin's Computing & Information Technology projects,
-experience, skills, and education at RIT. No database, Node.js, Composer,
-or build step is required. Assets, fonts, and interactions work without a CDN.
+A portfolio showcasing my projects, experience, skills, and education in Computing and Information Technology at RIT.
 
-## Content and design
+[View the live portfolio](https://people.rit.edu/~ec7233/portfolio/)
 
-- `index.php`: introduction, featured project, experience, skills, education, and contact.
-- `data/projects.php`: all seven project cards, technology tags, and contribution details.
-- `header.php` / `footer.php`: shared navigation, metadata, and social links.
-- `global.css`: the original charcoal (#222831), gray (#393E46), teal (#00ADB5),
-  and off-white (#EEEEEE) palette, responsive layouts, and reduced-motion support.
-- `assets/favicon.svg`: the text monogram used for the browser icon.
-- `images/portrait-cutout.png`: transparent portrait used with a charcoal and teal
-  backdrop in the hero; the original photo remains in `images/portrait.jpg`.
-- `main.js`: original headline quotes, animated project dialogs and mobile navigation,
-  project filters, and current-section links.
-- `assets/edwin-chen-resume.pdf`: downloadable resume supplied by Edwin. Replace
-  this file when updating the resume.
+## About the site
 
-All seven projects and their details remain accessible with JavaScript disabled.
-With JavaScript, project details open in an accessible dialog so cards and their
-neighbors keep their size. Close it with the Close button, Escape, or the backdrop;
-focus returns to the project button. Without dialog support, inline details remain
-available and expand independently of neighboring cards.
-Project filtering is enabled when JavaScript is available and applies to the seven
-cards below the featured project. The Crafty Studio appears in All projects,
-Backend & data, and Web applications. Previews use existing project screenshots;
-projects without screenshots show an “Image not available” placeholder.
+The site features The Crafty Studio and seven project cards, along with my work experience, technical skills, education, resume, and contact links. Project cards can be filtered by category and opened for more details. The layout adapts to different screen sizes and supports reduced motion. Project details remain accessible without JavaScript.
+
+## Project structure
+
+- `index.php` contains the main page and its sections.
+- `data/projects.php` holds project details, categories, and image paths.
+- `header.php` and `footer.php` provide shared navigation, metadata, and links.
+- `global.css` controls the site's styling and responsive layout.
+- `main.js` handles navigation, project filters, and project dialogs.
+- `images/` contains the portrait and project screenshots. The original portrait is also used as the browser tab icon.
+- `assets/edwin-chen-resume.pdf` is the downloadable resume.
 
 ## Deployment
 
-Deploy the PHP files and assets to a PHP-capable web host. A static preview
-extension cannot execute PHP, so use a PHP-capable preview if testing locally.
+Deploy the PHP files and assets to a PHP-capable web host. No database, dependency installation, or build step is required. A local preview must support PHP to render the complete site.

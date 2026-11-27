@@ -9,7 +9,7 @@
         <meta property="og:description" content="Explore Edwin's projects, RIT experience, and work across software, databases, and IT systems.">
         <meta property="og:type" content="website">
         <title>Edwin Chen | Computing & Information Technology</title>
-        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+        <link rel="icon" type="image/jpeg" href="images/portrait.jpg">
         <link rel="stylesheet" href="global.css">
         <script src="main.js" defer></script>
     </head>
